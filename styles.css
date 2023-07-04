@@ -78,6 +78,7 @@ h1 {
 .main-footer {
   background-color: green;
   padding: 1%;
+
 }
 
 .logo {
@@ -86,6 +87,17 @@ h1 {
 
 .menu {
   background-color: wheat;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.menu-items {
+  list-style: none;
+  display: flex;
+  gap: 0 25px;
+
+  margin: 0;
 }
 
 .call {
