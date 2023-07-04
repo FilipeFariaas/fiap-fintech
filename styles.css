@@ -138,6 +138,16 @@ h1 {
 
 .horizontal-cards {
   justify-content: center;
+  gap: 10px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .form-wrapper {
