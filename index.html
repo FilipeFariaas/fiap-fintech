@@ -246,51 +246,62 @@
 
         </div>
 
-        <!--FORM-->
+        <!--FORM SIGNIN-->
         <div class="row form-wrapper">
+          <h1>Cadastro</h1>
           <form class="row g-3 form">
-            <div class="col-md-6 form-field">
+            <div class="col-6">
+              <label for="inputAddress" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Digite seu nome">
+            </div>
+            <div class="col-6">
+              <label for="inputAddress2" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email">
             </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
+            <div class="col-6">
+              <label for="inputState" class="form-label">Tipo</label>
               <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
+                <option selected>Física</option>
+                <option>Jurídica</option>
               </select>
             </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Digite a senha">
             </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Confirmar Senha</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Confirme a senha">
             </div>
-            <div class="col-12">
+            <div class="col-12 btn-form">
               <button type="submit" class="btn btn-primary">Sign in</button>
             </div>
+            <p>Já tem um conta? <strong><a href="">Entrar</a></strong></p>
+          </form>
+        </div>
+
+        <!--FORM LOG IN-->
+        <div class="row form-wrapper">
+          <h1>Entrar</h1>
+          <form class="row g-3 form form-login">
+
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Digite sua senha">
+              </div>
+
+            <div class="col-12 btn-form">
+              <button type="submit" class="btn btn-primary">Log in</button>
+            </div>
+            <p>Ainda não tem uma conta? <strong><a href="">Cadastrar</a></strong></p>
           </form>
         </div>
 
