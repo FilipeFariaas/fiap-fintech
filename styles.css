@@ -209,6 +209,9 @@ h1 {
   text-align: left;
   display: flex;
   justify-content: center;
+  /*background-color: bisque;*/
+  margin: 0 auto;
+  padding: 1%;
 }
 
 .form-login {
