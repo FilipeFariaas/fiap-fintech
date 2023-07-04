@@ -63,6 +63,9 @@ h1 {
   justify-content: space-between;
 }
 */
+h1 {
+  margin: 2% 0;
+}
 
 .main-container {
   padding: 2%;
@@ -80,14 +83,15 @@ h1 {
 }
 
 .row {
-  padding: 5%;
+  padding: 1%;
+  align-items: center;
 }
 
 .main-header,
 .main-footer {
   /*background-color: green;*/
   background-color: #FFF;
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 
 .main-header {
@@ -154,12 +158,14 @@ h1 {
 }
 
 .card {
+  /*margin-top: 20px;*/
   box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .vertical-cards {
   justify-content: center;
   gap: 10px;
+  /*height: 100vh;*/
 }
 
 .card-vertical {
@@ -176,6 +182,7 @@ h1 {
 .horizontal-cards {
   justify-content: center;
   gap: 0 10px;
+  /*height: 100vh;*/
 }
 
 .reverse {
@@ -188,10 +195,14 @@ h1 {
 }
 
 .form-wrapper {
-  background-color: lightseagreen;
+  /*background-color: lightseagreen;*/
+  background-color: #FFF;
   padding: 1%;
-  margin: 5%;
+  /*margin: 5%;*/
+  margin: 0 auto;
   border-radius: 50px;
+  width: fit-content;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .form {
@@ -203,6 +214,8 @@ h1 {
 .form-login {
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  padding: 1%;
 }
 
 .form p {
@@ -222,4 +235,19 @@ h1 {
   .image {
     display: none;
   }
+}
+
+.main-container-form {
+  padding: 2%;
+  height: 100vh;
+  background-color: lightblue;
+  
+}
+
+.main-content-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #FFF;
 }
