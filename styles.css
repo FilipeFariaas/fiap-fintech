@@ -50,16 +50,28 @@ h1 {
 }
 */
 
+/*
 .container {
   justify-content: center;
 }
 
 .container-xxl {
   background-color: lightblue;
-  /*height: 100vh;*/
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+*/
+
+.main-container {
+  padding: 2%;
+}
+
+.container {
+  background-color: lightblue;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
 .main-header,
