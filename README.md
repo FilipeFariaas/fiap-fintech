@@ -16,6 +16,6 @@ A seguir estão os recursos oferecidos pela aplicação:
 
 ## Acesse o Projeto
 
-Para visualizar a aplicação, acesse o [Fintech pelo GitPages]([https://exemplo.com](https://filipefariaas.github.io/fiap-fintech/index.html)).
+Para visualizar a aplicação, acesse o [Fintech pelo GitPages](https://filipefariaas.github.io/fiap-fintech/index.html).
 
 Agradeço a visita ao repositório do projeto Fintech!
